@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Profile</title>
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Hello! This is my personal website built for the ITCS333 course.</p>
+            
+            <img src="assets/profile.jpg" alt="Profile image" width="250">
+        </section>
+
+        <section>
+            <h2>My Interests</h2>
+            <ul>
+                <li>taking care of my cat</li>
+                <li>Coding</li>
+                <li>coffee</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Useful Links</h2>
+            <p>You can check out the official <a href="https://github.com" target="_blank">GitHub website</a> for more details.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved for Queen Lana.</p>
+    </footer>
+
 </body>
 </html>
